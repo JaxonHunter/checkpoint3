@@ -26,7 +26,7 @@
             <div class="container-fluid">
                 <!-- tasklist input -->
                 <div class="row"><div class="col-6">
-                    <form onsubmit="app.ListController.createList(event)" class="row">
+                    <form onsubmit="app.listController.createList(event)" class="row">
                     <div class="col p-1">
                         <input type="text" class="form-control" name="listname" id="listname" aria-describedby="helpId" placeholder="What is your list's name?">
                     </div>
@@ -60,6 +60,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="app/main.js" type="module"></script>
 </body>
 
